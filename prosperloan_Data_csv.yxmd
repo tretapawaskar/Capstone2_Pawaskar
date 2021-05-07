@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Datasets\prosperLoanData.csv\prosperLoanData.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prosperLoanData.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ListingKey" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ListingNumber" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ListingCreationDate" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="CreditGrade" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="Term" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanStatus" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ClosedDate" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="BorrowerAPR" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="BorrowerRate" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LenderYield" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="EstimatedEffectiveYield" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="EstimatedLoss" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="EstimatedReturn" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ProsperRating (numeric)" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ProsperRating (Alpha)" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ProsperScore" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ListingCategory (numeric)" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="BorrowerState" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="Occupation" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="EmploymentStatus" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="EmploymentStatusDuration" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="IsBorrowerHomeowner" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="CurrentlyInGroup" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="GroupKey" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="DateCreditPulled" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="CreditScoreRangeLower" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="CreditScoreRangeUpper" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="FirstRecordedCreditLine" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="CurrentCreditLines" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="OpenCreditLines" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="TotalCreditLinespast7years" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="OpenRevolvingAccounts" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="OpenRevolvingMonthlyPayment" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="InquiriesLast6Months" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="TotalInquiries" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="CurrentDelinquencies" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="AmountDelinquent" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="DelinquenciesLast7Years" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="PublicRecordsLast10Years" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="PublicRecordsLast12Months" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="RevolvingCreditBalance" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="BankcardUtilization" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="AvailableBankcardCredit" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="TotalTrades" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="TradesNeverDelinquent (percentage)" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="TradesOpenedLast6Months" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="DebtToIncomeRatio" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="IncomeRange" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="IncomeVerifiable" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="StatedMonthlyIncome" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanKey" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="TotalProsperLoans" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="TotalProsperPaymentsBilled" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="OnTimeProsperPayments" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ProsperPaymentsLessThanOneMonthLate" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ProsperPaymentsOneMonthPlusLate" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ProsperPrincipalBorrowed" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ProsperPrincipalOutstanding" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="ScorexChangeAtTimeOfListing" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanCurrentDaysDelinquent" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanFirstDefaultedCycleNumber" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanMonthsSinceOrigination" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanNumber" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanOriginalAmount" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanOriginationDate" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LoanOriginationQuarter" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="MemberKey" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="MonthlyLoanPayment" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_CustomerPayments" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_CustomerPrincipalPayments" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_InterestandFees" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_ServiceFees" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_CollectionFees" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_GrossPrincipalLoss" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_NetPrincipalLoss" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="LP_NonPrincipalRecoverypayments" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="PercentFunded" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="Recommendations" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="InvestmentFromFriendsCount" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="InvestmentFromFriendsAmount" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+            <Field name="Investors" size="254" source="File: C:\Datasets\prosperLoanData.csv\prosperLoanData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yb477\AppData\Local\Temp\Engine_6896_6c7710b483c24ad1a0aa4fc8c4d75e2c_\Engine_17216_991e84a9403e41889158102980afd84a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="666" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"ListingKey","ListingNumber","ListingCreationDate","CreditGrade","Term","LoanStatus","ClosedDate","BorrowerAPR","BorrowerRate","LenderYield","EstimatedEffectiveYield","EstimatedLoss","EstimatedReturn","ProsperRating (numeric)","ProsperRating (Alpha)","ProsperScore","ListingCategory (numeric)","BorrowerState","Occupation","EmploymentStatus","EmploymentStatusDuration","IsBorrowerHomeowner","CurrentlyInGroup","GroupKey","DateCreditPulled","CreditScoreRangeLower","CreditScoreRangeUpper","FirstRecordedCreditLine","CurrentCreditLines","OpenCreditLines","TotalCreditLinespast7years","OpenRevolvingAccounts","OpenRevolvingMonthlyPayment","InquiriesLast6Months","TotalInquiries","CurrentDelinquencies","AmountDelinquent","DelinquenciesLast7Years","PublicRecordsLast10Years","PublicRecordsLast12Months","RevolvingCreditBalance","BankcardUtilization","AvailableBankcardCredit","TotalTrades","TradesNeverDelinquent (percentage)","TradesOpenedLast6Months","DebtToIncomeRatio","IncomeRange","IncomeVerifiable","StatedMonthlyIncome","LoanKey","TotalProsperLoans","TotalProsperPaymentsBilled","OnTimeProsperPayments","ProsperPaymentsLessThanOneMonthLate","ProsperPaymentsOneMonthPlusLate","ProsperPrincipalBorrowed","ProsperPrincipalOutstanding","ScorexChangeAtTimeOfListing","LoanCurrentDaysDelinquent","LoanFirstDefaultedCycleNumber","LoanMonthsSinceOrigination","LoanNumber","LoanOriginalAmount","LoanOriginationDate","LoanOriginationQuarter","MemberKey","MonthlyLoanPayment","LP_CustomerPayments","LP_CustomerPrincipalPayments","LP_InterestandFees","LP_ServiceFees","LP_CollectionFees","LP_GrossPrincipalLoss","LP_NetPrincipalLoss","LP_NonPrincipalRecoverypayments","PercentFunded","Recommendations","InvestmentFromFriendsCount","InvestmentFromFriendsAmount","Investors"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Replaced Null values to blank for strings and 0 with values with numeric fields.</AnnotationText>
+          <DefaultAnnotationText>Replaced Null values to blank for strings and 0 with values with numeric fields.</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yb477\AppData\Local\Temp\Engine_6896_6c7710b483c24ad1a0aa4fc8c4d75e2c_\Engine_17216_4345a7d0531446e781e15b580c5bb608_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ListingKey" />
+            <Field field="ListingNumber" />
+            <Field field="ListingCreationDate" />
+            <Field field="CreditGrade" />
+            <Field field="Term" />
+            <Field field="LoanStatus" />
+            <Field field="ClosedDate" />
+            <Field field="BorrowerAPR" />
+            <Field field="BorrowerRate" />
+            <Field field="LenderYield" />
+            <Field field="EstimatedEffectiveYield" />
+            <Field field="EstimatedLoss" />
+            <Field field="EstimatedReturn" />
+            <Field field="ProsperRating (numeric)" />
+            <Field field="ProsperRating (Alpha)" />
+            <Field field="ProsperScore" />
+            <Field field="ListingCategory (numeric)" />
+            <Field field="BorrowerState" />
+            <Field field="Occupation" />
+            <Field field="EmploymentStatus" />
+            <Field field="EmploymentStatusDuration" />
+            <Field field="IsBorrowerHomeowner" />
+            <Field field="CurrentlyInGroup" />
+            <Field field="GroupKey" />
+            <Field field="DateCreditPulled" />
+            <Field field="CreditScoreRangeLower" />
+            <Field field="CreditScoreRangeUpper" />
+            <Field field="FirstRecordedCreditLine" />
+            <Field field="CurrentCreditLines" />
+            <Field field="OpenCreditLines" />
+            <Field field="TotalCreditLinespast7years" />
+            <Field field="OpenRevolvingAccounts" />
+            <Field field="OpenRevolvingMonthlyPayment" />
+            <Field field="InquiriesLast6Months" />
+            <Field field="TotalInquiries" />
+            <Field field="CurrentDelinquencies" />
+            <Field field="AmountDelinquent" />
+            <Field field="DelinquenciesLast7Years" />
+            <Field field="PublicRecordsLast10Years" />
+            <Field field="PublicRecordsLast12Months" />
+            <Field field="RevolvingCreditBalance" />
+            <Field field="BankcardUtilization" />
+            <Field field="AvailableBankcardCredit" />
+            <Field field="TotalTrades" />
+            <Field field="TradesNeverDelinquent (percentage)" />
+            <Field field="TradesOpenedLast6Months" />
+            <Field field="DebtToIncomeRatio" />
+            <Field field="IncomeRange" />
+            <Field field="IncomeVerifiable" />
+            <Field field="StatedMonthlyIncome" />
+            <Field field="LoanKey" />
+            <Field field="TotalProsperLoans" />
+            <Field field="TotalProsperPaymentsBilled" />
+            <Field field="OnTimeProsperPayments" />
+            <Field field="ProsperPaymentsLessThanOneMonthLate" />
+            <Field field="ProsperPaymentsOneMonthPlusLate" />
+            <Field field="ProsperPrincipalBorrowed" />
+            <Field field="ProsperPrincipalOutstanding" />
+            <Field field="ScorexChangeAtTimeOfListing" />
+            <Field field="LoanCurrentDaysDelinquent" />
+            <Field field="LoanFirstDefaultedCycleNumber" />
+            <Field field="LoanMonthsSinceOrigination" />
+            <Field field="LoanNumber" />
+            <Field field="LoanOriginalAmount" />
+            <Field field="LoanOriginationDate" />
+            <Field field="LoanOriginationQuarter" />
+            <Field field="MemberKey" />
+            <Field field="MonthlyLoanPayment" />
+            <Field field="LP_CustomerPayments" />
+            <Field field="LP_CustomerPrincipalPayments" />
+            <Field field="LP_InterestandFees" />
+            <Field field="LP_ServiceFees" />
+            <Field field="LP_CollectionFees" />
+            <Field field="LP_GrossPrincipalLoss" />
+            <Field field="LP_NetPrincipalLoss" />
+            <Field field="LP_NonPrincipalRecoverypayments" />
+            <Field field="PercentFunded" />
+            <Field field="Investors" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>checked for duplicates .No Duplicated enteries found.</AnnotationText>
+          <DefaultAnnotationText>checked for duplicates .No Duplicated enteries found.</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yb477\AppData\Local\Temp\Engine_6896_6c7710b483c24ad1a0aa4fc8c4d75e2c_\Engine_17216_8bf47f0052584f2d81a8378b73e4ab49_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ListingNumber" selected="True" type="Int64" size="8" />
+            <SelectField field="CreditGrade" selected="True" type="String" size="254" />
+            <SelectField field="Term" selected="True" type="Int64" size="8" />
+            <SelectField field="ProsperRating (numeric)" selected="True" type="Int64" size="8" />
+            <SelectField field="ProsperScore" selected="True" type="Int64" size="8" />
+            <SelectField field="ListingCategory (numeric)" selected="True" type="Int64" size="8" />
+            <SelectField field="EmploymentStatusDuration" selected="True" type="Int64" size="8" />
+            <SelectField field="IsBorrowerHomeowner" selected="True" type="Bool" size="1" />
+            <SelectField field="CurrentlyInGroup" selected="True" type="Bool" size="1" />
+            <SelectField field="CreditScoreRangeLower" selected="True" type="Int64" size="8" />
+            <SelectField field="CreditScoreRangeUpper" selected="True" type="Int64" size="8" />
+            <SelectField field="CurrentCreditLines" selected="True" type="Int64" size="8" />
+            <SelectField field="OpenCreditLines" selected="True" type="Int64" size="8" />
+            <SelectField field="TotalCreditLinespast7years" selected="True" type="Int64" size="8" />
+            <SelectField field="OpenRevolvingAccounts" selected="True" type="Int64" size="8" />
+            <SelectField field="OpenRevolvingMonthlyPayment" selected="True" type="Int64" size="8" />
+            <SelectField field="InquiriesLast6Months" selected="True" type="Int64" size="8" />
+            <SelectField field="TotalInquiries" selected="True" type="Int64" size="8" />
+            <SelectField field="IncomeVerifiable" selected="True" type="Bool" size="1" />
+            <SelectField field="TotalProsperLoans" selected="True" type="Int64" size="8" />
+            <SelectField field="TotalProsperPaymentsBilled" selected="True" type="Int64" size="8" />
+            <SelectField field="OnTimeProsperPayments" selected="True" type="Int64" size="8" />
+            <SelectField field="ProsperPaymentsLessThanOneMonthLate" selected="True" type="Int64" size="8" />
+            <SelectField field="ProsperPaymentsOneMonthPlusLate" selected="True" type="Int64" size="8" />
+            <SelectField field="ScorexChangeAtTimeOfListing" selected="True" type="Int64" size="8" />
+            <SelectField field="LoanCurrentDaysDelinquent" selected="True" type="Int64" size="8" />
+            <SelectField field="LoanFirstDefaultedCycleNumber" selected="True" type="Int64" size="8" />
+            <SelectField field="LoanNumber" selected="True" type="Int64" size="8" />
+            <SelectField field="LoanOriginalAmount" selected="True" type="Int64" size="8" />
+            <SelectField field="Recommendations" selected="False" type="Int64" size="8" />
+            <SelectField field="InvestmentFromFriendsCount" selected="False" />
+            <SelectField field="InvestmentFromFriendsAmount" selected="False" />
+            <SelectField field="Investors" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>corrected data types.</AnnotationText>
+          <DefaultAnnotationText>corrected data types.</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="858" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Datasets\prosperLoanData.csv\Prosperloandata.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Prosperloandata.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="330" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yb477\AppData\Local\Temp\Engine_6896_6c7710b483c24ad1a0aa4fc8c4d75e2c_\Engine_17216_544d95a1815748e8add76eff7045cc1c_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>prosperloan_Data_csv</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
